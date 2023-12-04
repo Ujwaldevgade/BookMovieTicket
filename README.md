@@ -42,7 +42,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ## Screenshots
 
 ### Home Page
-![Home Page](./images/Animal.jpg)
+![Home Page](./public/Images/Animal.jpg)
 ### Booking Section
 ![Booking Section](./images/booking-section.jpg)
 
