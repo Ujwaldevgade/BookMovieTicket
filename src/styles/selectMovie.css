@@ -1,0 +1,78 @@
+
+/* Select Movie Heading Styles */
+.SM_heading {
+  width: 100%;
+  font-size: 22px;
+  color: #333; /* Dark text color */
+  margin-bottom: 10px;
+}
+
+/* Select Movie Main Container Styles */
+.SM_main_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+  background-color: #fff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+/* Movie Card Styles */
+.movie_card {
+  width: calc(30% - 20px); /* Adjust width as needed with margins */
+  margin-bottom: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transitions for zoom effect and box-shadow */
+}
+
+/* Movie Card Hover Effect */
+.movie_card:hover {
+  transform: scale(1.05); /* Apply zoom effect on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjust box-shadow on hover */
+}
+
+/* Movie Image Container Styles */
+.movie_image_container {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+/* Movie Image Styles */
+.movie_image {
+  width: 100%;
+  height: 100%;
+}
+
+/* Movie Details Container Styles */
+.movie_details {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Movie Name Styles */
+.movie_name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  margin-bottom: 10px;
+}
+
+/* Movie Rating Styles */
+.movie_rating {
+  font-size: 14px;
+  color: #777; /* Darker grey text color for rating */
+}
+
+/* Movie Genre Styles */
+.movie_genre {
+  font-size: 14px;
+  color: #777; /* Darker grey text color for genre */
+}

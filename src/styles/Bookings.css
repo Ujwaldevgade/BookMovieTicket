@@ -1,0 +1,34 @@
+/* Main Container */
+.last_booking_details_container_main {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #d2bbbb; /* Light gray background */
+    border-radius: 5px;
+    color: #333; /* Dark text color */
+    box-shadow: 4px 7px 13px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+  }
+  
+  /* Navbar Styles */
+  .last_booking_details_container_main .navbar {
+    background-color: #333; /* Dark background color */
+    padding: 10px;
+  }
+  
+  .last_booking_details_container_main .navbar a {
+    color: white; /* White text color */
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  /* Header */
+  .last_booking_details_container_main .last_booking_details_header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Rest of the styles remain the same as in the previous CSS file */
+  /* ... */
+  

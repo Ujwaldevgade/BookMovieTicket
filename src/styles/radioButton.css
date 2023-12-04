@@ -1,0 +1,48 @@
+/* Active State */
+.form-check-label.active {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  user-select: none;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Inactive State */
+.form-check-label.inactive {
+  user-select: none;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Hover State for Inactive */
+.inactive:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+  opacity: 0.95;
+}
+
+/* Common Styles */
+.form-check-label {
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 2px solid black; /* Adjust color as needed */
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.text {
+  font-size: 17px;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .form-check-label {
+    margin: 5px;
+  }
+}

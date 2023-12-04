@@ -1,0 +1,64 @@
+/* SelectMovieButton.css */
+
+/* Background container */
+.background-container {
+  background-color: #080808; /* White background color */
+  padding: 20px; /* Add padding as needed */
+  border-radius: 15px; /* Add border radius for an attractive look */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.card-container {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  height: 250px; /* Adjust the height as needed */
+  width: 700px; /* Adjust the width as needed */
+  margin: auto; /* Center the container */
+  transition: transform 0.3s ease, border 0.3s ease; /* Add smooth transitions for zoom effect and border */
+  border: 2px solid transparent; /* Add initial transparent border */
+  border-radius: 10px; /* Add border radius for an attractive look */
+}
+
+.card-container:hover {
+  transform: scale(1.05); /* Apply zoom effect on hover */
+  border: 2px solid #fff; /* Change border color on hover */
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.card-img-top {
+  height: 100%;
+  width: 100%;
+}
+
+.next-arrow,
+.prev-arrow {
+  position: absolute;
+  top: 38%;
+  font-size: 24px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0; /* Initially hide the arrows */
+  transition: opacity 0.3s ease; /* Add smooth transition for arrow visibility */
+}
+
+.card-container:hover .next-arrow,
+.card-container:hover .prev-arrow {
+  opacity: 1; /* Show the arrows on hover */
+}
+
+.next-arrow {
+  right: 0;
+}
+
+.prev-arrow {
+  left: 0;
+}
