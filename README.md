@@ -36,7 +36,7 @@ Follow these instructions to get a copy of the project up and running on your lo
    npm install
    npm start
 
-## Link to website -> [BookMyShow](https://bookmy-show.netlify.app/)
+## Link to website -> https://book-movie-ticket-main.vercel.app/
 
 
 ## Screenshots
