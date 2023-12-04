@@ -46,6 +46,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Booking Section
 ![Booking Section](./public/Images/Booking.jpg)
 
-### Last Booking Details
-![Feature](./images/feature.jpg)
+### Booking History
+![Booking History](./public/Images/History.jpg)
 
